@@ -1,16 +1,17 @@
 name: Verify Human Identity
+Muhammad umar 
 
 on:
   workflow_dispatch:
     inputs:
-      agent_name:mammalo
-        description: 'mammalo'
+      agent_name: Muhammad umar 
+        description: 'muhammad umar'
         required: true
-        default: 'mammalo'
+        default: 'muhammad umar'
       agent_description:
-        description: 'mammalo'
+        description: 'muhammad umar'
         required: true
-        default: 'mammalo AI Agent'
+        default: 'muhammad umarAI Agent'
 
 jobs:
   verify:
@@ -38,4 +39,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "lokie", "description": "mammalo AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "lokie", "description": "Muhammad umar AI Agent"}'
